@@ -1,34 +1,14 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="tr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeri - CEMARTS</title>
-    <meta name="description" content="CEMARTS Sanat Galerisi - Yağlı boya, karakalem ve heykel çalışmaları.">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
-        rel="stylesheet">
-
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-    <!-- Loader -->
-    <div id="loader">
-        <div class="spinner"></div>
-        <div class="loader-text">CEMARTS</div>
-    </div>
-
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
@@ -39,7 +19,7 @@
                 <span class="bar"></span>
             </div>
             <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Anasayfa</a></li>
+                <li><a href="index.html" class="nav-link">Ana Sayfa</a></li>
                 <li><a href="artist.html" class="nav-link">Sanatçı</a></li>
                 <li><a href="gallery.html" class="nav-link active">Galeri</a></li>
                 <li><a href="contact.html" class="nav-link">İletişim</a></li>
@@ -50,19 +30,19 @@
     <!-- Page Header -->
     <header class="page-header">
         <div class="container">
-            <h1>Eserler</h1>
-            <p>Ruhun yansıması olan koleksiyonumuzu keşfedin.</p>
+            <h1>Sanat Galerisi</h1>
+            <p>Ruhun yansıması eserler</p>
         </div>
     </header>
 
     <!-- Gallery Section -->
-    <section class="section gallery">
+    <section class="gallery-section">
         <div class="container">
-
+            <!-- Filter Buttons -->
             <div class="gallery-filters">
                 <button class="filter-btn active" data-filter="all">Tümü</button>
-                <button class="filter-btn" data-filter="karakalem">Karakalem</button>
                 <button class="filter-btn" data-filter="yagliboya">Yağlı Boya</button>
+                <button class="filter-btn" data-filter="karakalem">Karakalem</button>
                 <button class="filter-btn" data-filter="heykel">Heykel</button>
             </div>
 
@@ -539,7 +519,6 @@
                             <i class="fas fa-search-plus"></i>
                         </div>
                     </div>
-
                     <div class="gallery-info">
                         <h3>Karakalem Eser 11</h3>
                         <p class="category">Karakalem Çalışması</p>
@@ -599,15 +578,31 @@
                 </div>
                 <div class="gallery-item heykel" data-category="heykel">
                     <div class="gallery-img-wrapper">
-                        <img src="assets/sculpture.png" alt="Modern Form">
+                        <img src="assets/heykel1.jpeg" alt="Heykel Eser 1">
                         <div class="gallery-overlay">
                             <i class="fas fa-search-plus"></i>
                         </div>
                     </div>
                     <div class="gallery-info">
-                        <h3>Formun Gücü</h3>
-                        <p class="category">Bronz Döküm</p>
-                        <a href="https://wa.me/905362170967?text=Merhaba, 'Formun Gücü' adlı eser hakkında bilgi almak istiyorum."
+                        <h3>Heykel Eser 1</h3>
+                        <p class="category">Heykel Çalışması</p>
+                        <a href="https://wa.me/905362170967?text=Merhaba, 'Heykel Eser 1' adlı eser hakkında bilgi almak istiyorum."
+                            target="_blank" class="btn btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Bilgi Al
+                        </a>
+                    </div>
+                </div>
+                <div class="gallery-item heykel" data-category="heykel">
+                    <div class="gallery-img-wrapper">
+                        <img src="assets/heykel2.jpeg" alt="Heykel Eser 2">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Heykel Eser 2</h3>
+                        <p class="category">Heykel Çalışması</p>
+                        <a href="https://wa.me/905362170967?text=Merhaba, 'Heykel Eser 2' adlı eser hakkında bilgi almak istiyorum."
                             target="_blank" class="btn btn-whatsapp">
                             <i class="fab fa-whatsapp"></i> Bilgi Al
                         </a>
@@ -633,5 +628,4 @@
 
     <script src="script.js"></script>
 </body>
-
 </html>
