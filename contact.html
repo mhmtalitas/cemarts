@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | Cemarts</title>
+    <meta name="description" content="Cemarts iletişim bilgileri. Sanatçı ile irtibata geçin, atölyeyi ziyaret edin.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="spinner"></div>
+        <div class="loader-text">CEMARTS</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">CEMARTS</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Anasayfa</a></li>
+                <li><a href="artist.html" class="nav-link">Sanatçı</a></li>
+                <li><a href="gallery.html" class="nav-link">Galeri</a></li>
+                <li><a href="contact.html" class="nav-link active">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>İletişim</h1>
+            <p>Sanatla buluşmak için bize ulaşın.</p>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="section contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info fade-in-left">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Atölye</h4>
+                            <p>Sanat Sokağı No: 42, İstanbul</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>E-posta</h4>
+                            <p>info@cemarts.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefon</h4>
+                            <p>+90 555 123 45 67</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form fade-in-right">
+                    <div class="form-group">
+                        <input type="text" placeholder="Adınız Soyadınız" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="E-posta Adresiniz" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Mesajınız" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Gönder</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CEMARTS. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

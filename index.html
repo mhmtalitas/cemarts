@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cemarts | Sanatın Ruhu</title>
+    <meta name="description" content="Ressam ve heykeltraşın eşsiz eserlerini sergilediği sanat galerisi.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="spinner"></div>
+        <div class="loader-text">CEMARTS</div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">CEMARTS</a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Anasayfa</a></li>
+                <li><a href="artist.html" class="nav-link">Sanatçı</a></li>
+                <li><a href="gallery.html" class="nav-link">Galeri</a></li>
+                <li><a href="contact.html" class="nav-link">İletişim</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="fade-in-up">Sanatın Ruhuna Dokunun</h1>
+            <p class="fade-in-up delay-1">Çizgilerin, renklerin ve formların dansı.</p>
+            <div class="hero-buttons fade-in-up delay-2">
+                <a href="gallery.html" class="btn btn-primary">Eserleri Keşfet</a>
+                <a href="artist.html" class="btn btn-outline" style="margin-left: 20px;">Sanatçıyı Tanı</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Quote Section -->
+    <section class="section quote-section">
+        <div class="quote-overlay"></div>
+        <div class="container">
+            <blockquote class="fade-in-up">
+                "Sanat, görüneni değil, görünmeyeni görünür kılar."
+                <cite>- Paul Klee</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Featured Preview Section -->
+    <section class="section featured-preview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Öne Çıkanlar</h2>
+                <div class="divider"></div>
+                <p class="section-subtitle">Koleksiyonumuzdan seçkin parçalar</p>
+            </div>
+            <div class="preview-grid">
+                <div class="preview-item">
+                    <img src="assets/charcoal.png" alt="Karakalem">
+                    <div class="preview-content">
+                        <h3>Karakalem</h3>
+                        <a href="gallery.html" class="btn-text">İncele <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="preview-item">
+                    <img src="assets/oil.png" alt="Yağlı Boya">
+                    <div class="preview-content">
+                        <h3>Yağlı Boya</h3>
+                        <a href="gallery.html" class="btn-text">İncele <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="preview-item">
+                    <img src="assets/sculpture.png" alt="Heykel">
+                    <div class="preview-content">
+                        <h3>Heykel</h3>
+                        <a href="gallery.html" class="btn-text">İncele <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spotlight Section -->
+    <section class="section spotlight">
+        <div class="container">
+            <div class="spotlight-wrapper">
+                <div class="spotlight-img fade-in-left">
+                    <img src="assets/sculpture.png" alt="Haftanın Eseri">
+                </div>
+                <div class="spotlight-content fade-in-right">
+                    <span class="tag">Haftanın Eseri</span>
+                    <h2>Sessiz Çığlık</h2>
+                    <p class="description">Mermerin soğukluğunda hayat bulan, insan ruhunun en derin sessizliğini
+                        haykıran bir başyapıt. Işık ve gölgenin mermer üzerindeki dansı, izleyiciyi derin bir tefekküre
+                        davet ediyor.</p>
+                    <div class="spotlight-meta">
+                        <span><i class="fas fa-ruler-combined"></i> 120x60x40 cm</span>
+                        <span><i class="fas fa-calendar-alt"></i> 2024</span>
+                    </div>
+                    <a href="gallery.html" class="btn btn-primary">Detaylı İncele</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exhibitions Section -->
+    <section class="section exhibitions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gelecek Sergiler</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="exhibition-list">
+                <div class="exhibition-item fade-in-up">
+                    <div class="date">
+                        <span class="day">15</span>
+                        <span class="month">KAS</span>
+                    </div>
+                    <div class="details">
+                        <h3>Yansımalar ve Gölgeler</h3>
+                        <p>Modern Sanatlar Müzesi, İstanbul</p>
+                    </div>
+                    <a href="#" class="btn-link">Detaylar <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="exhibition-item fade-in-up delay-1">
+                    <div class="date">
+                        <span class="day">02</span>
+                        <span class="month">ARA</span>
+                    </div>
+                    <div class="details">
+                        <h3>Ruhun Formu</h3>
+                        <p>Galeri Cemarts, Nişantaşı</p>
+                    </div>
+                    <a href="#" class="btn-link">Detaylar <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 CEMARTS. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
