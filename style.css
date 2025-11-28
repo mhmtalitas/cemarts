@@ -262,7 +262,7 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-    align-items: center;
+    align-items: start;
 }
 
 .about-text p {

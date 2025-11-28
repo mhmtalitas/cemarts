@@ -13,7 +13,7 @@ for i in range(1, 21): # 1 to 20
                         <h3>Yağlı Boya Eser {i}</h3>
                         <p class="category">Yağlı Boya Tablo</p>
                         <p class="price">₺5.000</p>
-                        <a href="https://wa.me/905551234567?text=Merhaba, 'Yağlı Boya Eser {i}' adlı eser hakkında bilgi almak istiyorum."
+                        <a href="https://wa.me/905362170967?text=Merhaba, 'Yağlı Boya Eser {i}' adlı eser hakkında bilgi almak istiyorum."
                             target="_blank" class="btn btn-whatsapp">
                             <i class="fab fa-whatsapp"></i> Bilgi Al / Satın Al
                         </a>
@@ -37,7 +37,7 @@ for i in range(1, 16):
                         <h3>Karakalem Eser {i}</h3>
                         <p class="category">Karakalem Çalışması</p>
                         <p class="price">₺1.500</p>
-                        <a href="https://wa.me/905551234567?text=Merhaba, 'Karakalem Eser {i}' adlı eser hakkında bilgi almak istiyorum."
+                        <a href="https://wa.me/905362170967?text=Merhaba, 'Karakalem Eser {i}' adlı eser hakkında bilgi almak istiyorum."
                             target="_blank" class="btn btn-whatsapp">
                             <i class="fab fa-whatsapp"></i> Bilgi Al / Satın Al
                         </a>
@@ -57,7 +57,7 @@ sculpture_html = '''
                         <h3>Sessiz Çığlık</h3>
                         <p class="category">Mermer Heykel</p>
                         <p class="price">₺12.000</p>
-                        <a href="https://wa.me/905551234567?text=Merhaba, 'Sessiz Çığlık' adlı eser hakkında bilgi almak istiyorum."
+                        <a href="https://wa.me/905362170967?text=Merhaba, 'Sessiz Çığlık' adlı eser hakkında bilgi almak istiyorum."
                             target="_blank" class="btn btn-whatsapp">
                             <i class="fab fa-whatsapp"></i> Bilgi Al / Satın Al
                         </a>
@@ -75,7 +75,7 @@ sculpture_html = '''
                         <h3>Formun Gücü</h3>
                         <p class="category">Bronz Döküm</p>
                         <p class="price">₺8.500</p>
-                        <a href="https://wa.me/905551234567?text=Merhaba, 'Formun Gücü' adlı eser hakkında bilgi almak istiyorum."
+                        <a href="https://wa.me/905362170967?text=Merhaba, 'Formun Gücü' adlı eser hakkında bilgi almak istiyorum."
                             target="_blank" class="btn btn-whatsapp">
                             <i class="fab fa-whatsapp"></i> Bilgi Al / Satın Al
                         </a>
