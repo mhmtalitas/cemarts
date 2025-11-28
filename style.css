@@ -642,7 +642,9 @@ footer {
 /* Page Header */
 .page-header {
     padding: 150px 0 80px;
-    background-color: var(--surface-color);
+    background: linear-gradient(rgba(15, 15, 15, 0.7), rgba(15, 15, 15, 0.7)), url('assets/page_header_bg.png');
+    background-size: cover;
+    background-position: center;
     text-align: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -656,6 +658,7 @@ footer {
 .page-header p {
     color: var(--text-muted);
     font-size: 1.2rem;
+    font-family: var(--font-heading);
 }
 
 /* Gallery Info & WhatsApp Button */
