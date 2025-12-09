@@ -257,6 +257,13 @@ h4 {
     color: #f0f0f0;
 }
 
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 /* About Section */
 .about-content {
     display: grid;
@@ -834,6 +841,19 @@ footer {
 
     .about-stats {
         margin-top: 30px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        text-align: center;
     }
 }
 
